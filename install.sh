@@ -7,7 +7,7 @@ sudo apt-get install firefox -y
 clear
 
 sudo apt -y install vnc4server
-sudo apt-get install lxde lxde-core
+sudo apt-get install fluxbox -y
 clear
 figlet "Password For VNC Server" | pv -qL 120 
 sleep 3s 
