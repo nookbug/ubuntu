@@ -3,7 +3,6 @@ sudo apt-get install pv -y
 sudo apt-get install figlet -y
 clear
 sudo apt-get install wget -y
-sudo apt-get install firefox -y
 clear
 
 sudo apt -y install vnc4server
