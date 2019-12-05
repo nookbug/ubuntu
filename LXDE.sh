@@ -1,7 +1,7 @@
-#!bin/bash
+#!/bin/bash
 # Install X, LXDE, VPN programs
 
-apt-get install xorg lxde-core tightvncserver
+sudo apt-get install xorg lxde-core tightvncserver
 
 # Start VNC to create config file
 
