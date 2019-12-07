@@ -2,7 +2,7 @@
 # Install X, LXDE, VPN programs
 sudo apt-get install nano -y
 sudo apt-get install xorg lxde-core tightvncserver
-
+clear 
 # Start VNC to create config file
 
 tightvncserver :1
@@ -11,13 +11,10 @@ tightvncserver :1
 
 tightvncserver -kill :1
 
-# Edit config file to start session with LXDE:
 
-nano ~/.vnc/xstartup
-
-# Add this at the bottom of the file:
-lxterminal &
-/usr/bin/lxsession -s LXDE &
+# Adding require config file to xstrtup file :
+echo "lxterminal &
+/usr/bin/lxsession -s LXDE &" ~/.vnc/xstartup
 
 # Restart VNC
 
