@@ -14,7 +14,7 @@ tightvncserver -kill :1
 
 # Adding require config file to xstrtup file :
 echo "lxterminal &
-/usr/bin/lxsession -s LXDE &" ~/.vnc/xstartup
+/usr/bin/lxsession -s LXDE &" >> ~/.vnc/xstartup
 
 # Restart VNC
 
