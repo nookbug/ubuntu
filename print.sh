@@ -28,6 +28,6 @@ curl https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/
 sudo mv apktool /usr/local/bin
 wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.4.1.jar 
 mv apktool_2.4.1.jar apktool.jar 
-sudo mv apktool.jar /usr/local/bin/
-chmod +x apktool
+sudo mv apktool.jar /usr/local/bin
+chmod +x /usr/local/bin/apktool
 echo -e "			\e[4;49;92mDone!"
